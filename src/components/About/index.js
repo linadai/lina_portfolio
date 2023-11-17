@@ -28,7 +28,7 @@ const About = ()=> {
                     />
                 </h1>
                 <p>
-                As a junior full-stack developer, I specialize in crafting web front-end components and back-end applications with a focus on clean, maintainable, and reusable code.
+                As a full-stack developer, I specialize in crafting web front-end components and back-end applications with a focus on clean, maintainable, and reusable code.
           </p>
           <p align="LEFT">
           I'm passionate about collaboration and thrive on continuous learning and knowledge sharing.
