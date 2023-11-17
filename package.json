@@ -1,7 +1,7 @@
 {
   "name": "lina_portfolio",
   "version": "0.1.0",
-  "homepage": "https://linadai.github.io/lina-portfolio",
+  "homepage": "https://linadai.github.io/lina_portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
