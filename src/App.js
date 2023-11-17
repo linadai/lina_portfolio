@@ -10,11 +10,11 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/lina_portfolio" element={<Layout />}>
         <Route index element={<Home/>}/>
-        <Route path="about" element={<About/>}></Route>
-        <Route path="contact" element={<Contact/>}></Route>
-        <Route path="timeline" element={<Timeline></Timeline>}></Route>
+        <Route path="lina_portfolio/about" element={<About/>}></Route>
+        <Route path="lina_portfolio/ontact" element={<Contact/>}></Route>
+        <Route path="lina_portfolio/timeline" element={<Timeline></Timeline>}></Route>
       </Route>
     </Routes>
     </>
