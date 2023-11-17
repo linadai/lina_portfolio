@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/lina-portfolio/static/css/main.55ef949b.css",
+    "main.js": "/lina-portfolio/static/js/main.c418b7c9.js",
+    "static/js/787.21b01d08.chunk.js": "/lina-portfolio/static/js/787.21b01d08.chunk.js",
+    "static/media/lina.jpeg": "/lina-portfolio/static/media/lina.fb32895f8485fd404014.jpeg",
+    "static/media/logo-lc.png": "/lina-portfolio/static/media/logo-lc.8dc1eb5533acf77c6c9b.png",
+    "static/media/logo-l.png": "/lina-portfolio/static/media/logo-l.d63bcb9ae9124531127a.png",
+    "static/media/logo_sub.png": "/lina-portfolio/static/media/logo_sub.1e95a0004ea63cd45c18.png",
+    "static/media/helvetica-neu.ttf": "/lina-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/lina-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/lina-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/school.svg": "/lina-portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "index.html": "/lina-portfolio/index.html",
+    "static/media/work.svg": "/lina-portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "main.55ef949b.css.map": "/lina-portfolio/static/css/main.55ef949b.css.map",
+    "main.c418b7c9.js.map": "/lina-portfolio/static/js/main.c418b7c9.js.map",
+    "787.21b01d08.chunk.js.map": "/lina-portfolio/static/js/787.21b01d08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55ef949b.css",
+    "static/js/main.c418b7c9.js"
+  ]
+}
