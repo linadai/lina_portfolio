@@ -11,9 +11,9 @@ function App() {
     <>
     <Routes>
       <Route path="/lina_portfolio" element={<Layout />}>
-        <Route index element={<Home/>}/>
+        <Route path="/lina_portfolio" element={<Home/>}/>
         <Route path="/lina_portfolio/about" element={<About/>}></Route>
-        <Route path="/lina_portfolio/ontact" element={<Contact/>}></Route>
+        <Route path="/lina_portfolio/contact" element={<Contact/>}></Route>
         <Route path="/lina_portfolio/timeline" element={<Timeline></Timeline>}></Route>
       </Route>
     </Routes>
