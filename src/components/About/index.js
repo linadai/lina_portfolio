@@ -1,4 +1,4 @@
-import { faAws, faCss3, faGitAlt, faHtml5, faJs, faJsSquare, faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faAws, faCss3, faHtml5, faJsSquare, faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import Loader from "react-loaders";

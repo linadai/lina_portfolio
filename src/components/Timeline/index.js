@@ -6,7 +6,7 @@ import { ReactComponent as WorkIcon } from "../../assets/images/work.svg";
 import { ReactComponent as SchoolIcon } from "../../assets/images/school.svg";
 import "../../utilities/variables.scss"
 import AnimatedLetters from "../AnimatedLetters";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Loader from "react-loaders";
 
 
@@ -15,7 +15,6 @@ const Timeline = () => {
     let schoolIconStyle = { background: "#f843fd" };
     const [letterClass, setLetterClass] = useState('text-animate');
 
-    const refForm = useRef();
     useEffect(() => {
         setTimeout(() => {
             setLetterClass('text-animate-hover')
