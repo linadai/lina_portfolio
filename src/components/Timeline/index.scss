@@ -1,0 +1,75 @@
+@import "../../utilities/variables.scss";
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+  }
+
+.timeline-page {
+    margin:4px, 4px;
+    padding:4px;
+   
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    h1 {
+        font-size: 53px;
+       // font-family:  Noto Sans, sans-serif;
+       // @include linear-gradient-color();
+       color: #fff;
+       
+        font-weight: 400;
+        margin-top: 0;
+       text-align: center;
+        //position: relative;
+        margin-bottom: 40px;
+       // left: -10px;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            @include linear-gradient-color();
+            font-size: 18px;
+            position: absolute;
+            margin-top: -10px;
+            left: -10px;
+            opacity: 0.6;
+            line-height: 18px;
+        }
+
+        &::after {
+            content: '</h1>';
+            font-family: 'La Belle Aurore';
+            @include linear-gradient-color();
+            font-size: 18px;
+            line-height: 18px;
+            position: absolute;
+            left: -30px;
+            bottom: -20px;
+            margin-left: 20px;
+            opacity: 0.6;
+        }
+    }
+}
+
+h3 {
+    padding-top: 0.25em;
+    text-transform: uppercase;
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+  }
+  
+  .date {
+    color: rgb(201, 251, 255);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+  

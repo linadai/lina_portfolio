@@ -1,0 +1,48 @@
+$primary-color: #fb0357;
+$alice-blue: #f84cfd;
+$background-image: linear-gradient(135deg, $primary-color, $alice-blue 83%);
+
+@mixin linear-gradient-color {
+    background-image: $background-image;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@mixin h1-style {
+    h1 {
+        font-size: 53px;
+       // font-family:  Noto Sans, sans-serif;
+       // @include linear-gradient-color();
+       color: #fff;
+        font-weight: 400;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: -10px;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            @include linear-gradient-color();
+            font-size: 18px;
+            position: absolute;
+            margin-top: -10px;
+            left: -10px;
+            opacity: 0.6;
+            line-height: 18px;
+        }
+
+        &::after {
+            content: '</h1>';
+            font-family: 'La Belle Aurore';
+            @include linear-gradient-color();
+            font-size: 18px;
+            line-height: 18px;
+            position: absolute;
+            left: -30px;
+            bottom: -20px;
+            margin-left: 20px;
+            opacity: 0.6;
+        }
+    }
+}
