@@ -40,7 +40,17 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 5,
+    id: 7,
+    title: "Certificate IV of Cyber Security",
+    location: "TAFE NSW",
+    description:
+      "Learn to analyse information and examine cyber security data. Learn to manage information and communications technology (ICT) networks, protocols and security infrastructure",
+    buttonText: "College Projects",
+    date: "Auguest 2018 - June 2019",
+    icon: "school",
+  },
+  {
+    id: 6,
     title: "IOS DEVELOPER",
     location: "Guangzhou Civil Aviation Information Technology Co., Ltd, China",
     description:
@@ -50,24 +60,14 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 6,
+    id: 7,
     title: "FRONTEND DEVELOPER & IOS DEVELOPER",
     location: "Foxconn-Hon Hai Technology Group, China",
     description:
       "Communicate with BA, design and maintenance of Front-end web page with HTML, CSS and JavaScript. Developed iOS apps for iPhone and iPad with Objective-C. Uploaded  iOS apps on Apple Store. Communicated with BA about app design. ",
     buttonText: "Course Certificate",
-    date: "September 2011",
+    date: "September 2008 - April 2012",
     icon: "work",
-  },
-  {
-    id: 7,
-    title: "Certificate IV of Cyber Security",
-    location: "TAFE NSW",
-    description:
-      "Learn to analyse information and examine cyber security data. Learn to manage information and communications technology (ICT) networks, protocols and security infrastructure",
-    buttonText: "College Projects",
-    date: "Auguest 2018 - June 2019",
-    icon: "school",
   },
   {
     id: 8,
