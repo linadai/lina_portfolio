@@ -1,6 +1,17 @@
 let timelineElements = [
   {
     id: 1,
+    title: "Full Stack Developer",
+    location: "Freelancer",
+    description:
+      "Leading the upgrade of a web application to enhance user experience, focusing on a dual-purpose site for both\
+      employees and consumers. The project aims to streamline employee data management and empower consumers\
+      with quick access to detailed liquor product information.",
+    buttonText: "View Frontend Projects",
+    date: "September 2023 - Current",
+    icon: "work",
+  },{
+    id: 2,
     title: "Multimedia Developer",
     location: "TAFE Queensland",
     description:
@@ -10,7 +21,7 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 2,
+    id: 3,
     title: "INTERNSHIP-FUll STACK DEVELOPER",
     location: "JR Academy",
     description:
@@ -20,7 +31,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 3,
+    id: 4,
     title: "Poject Omni-FUll STACK DEVELOPER",
     location: "JR Academy",
     description:
@@ -30,7 +41,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 4,
+    id: 5,
     title: "Project Jack Chen Brickwork-FUll STACK DEVELOPER",
     location: "JR Academy",
     description:
@@ -40,7 +51,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 7,
+    id: 6,
     title: "Certificate IV of Cyber Security",
     location: "TAFE NSW",
     description:
@@ -50,7 +61,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 6,
+    id: 7,
     title: "IOS DEVELOPER",
     location: "Guangzhou Civil Aviation Information Technology Co., Ltd, China",
     description:
@@ -60,7 +71,7 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 7,
+    id: 8,
     title: "FRONTEND DEVELOPER & IOS DEVELOPER",
     location: "Foxconn-Hon Hai Technology Group, China",
     description:
@@ -70,7 +81,7 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 8,
+    id: 9,
     title: "Bachelor of Electronic Information Engineering",
     location: "Xihua University, China",
     description:
