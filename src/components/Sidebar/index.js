@@ -7,7 +7,7 @@ import { faEnvelope, faHome, faTimeline, faUser } from '@fortawesome/free-solid-
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => (
     <div className='nav-bar'>
-        <Link className="logo" to="/">
+        <Link className="logo" to="/lina_portfolio">
             <img src={LogoS} alt="logo" />
             <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
         </Link>
